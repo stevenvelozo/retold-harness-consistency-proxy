@@ -1,0 +1,27 @@
+{
+	"name": "retold-harness-consistency-proxy",
+	"version": "1.0.0",
+	"description": "Splitter proxy that fans out requests to multiple retold-harness backends and compares responses for consistency.",
+	"main": "source/Retold-Harness-Consistency-Proxy.js",
+	"bin": {
+		"retold-harness-consistency-proxy": "./bin/retold-harness-consistency-proxy.js"
+	},
+	"scripts": {
+		"start": "node source/Retold-Harness-Consistency-Proxy.js",
+		"test": "npx quack test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevenvelozo/retold-harness.git"
+	},
+	"author": "steven velozo <steven@velozo.com>",
+	"license": "MIT",
+	"dependencies": {
+		"fable": "^3.0.0",
+		"fable-serviceproviderbase": "^3.0.19"
+	},
+	"devDependencies": {
+		"quackage": "^1.0.0",
+		"chai": "^4.3.0"
+	}
+}
