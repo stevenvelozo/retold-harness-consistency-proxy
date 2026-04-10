@@ -1,6 +1,6 @@
 # Retold Harness Consistency Proxy
 
-> Multi-backend consistency verification proxy <small>v1.0.0</small>
+> Multi-backend consistency verification proxy
 
 Fan out every HTTP request to multiple retold-harness backends in parallel and compare their responses for data consistency.
 

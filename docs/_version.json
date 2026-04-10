@@ -1,0 +1,7 @@
+{
+	"Name": "retold-harness-consistency-proxy",
+	"Version": "1.0.0",
+	"Description": "Splitter proxy that fans out requests to multiple retold-harness backends and compares responses for consistency.",
+	"GeneratedAt": "2026-04-10T01:49:58.632Z",
+	"GitCommit": "0e7434c"
+}
