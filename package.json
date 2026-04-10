@@ -21,7 +21,8 @@
 		"fable-serviceproviderbase": "^3.0.19"
 	},
 	"devDependencies": {
-		"quackage": "^1.1.0",
-		"chai": "^4.3.0"
+		"chai": "^4.3.0",
+		"pict-docuserve": "^0.1.5",
+		"quackage": "^1.1.0"
 	}
 }
